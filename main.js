@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#users').DataTable({
-    ajax: 'http://localhost:3000/api/users',    
+    ajax: 'baocao.json',    
     columns: [
       { data: 'id' },
       { data: 'name' },

@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#users').DataTable({
-    ajax: 'api/users',    
+    ajax: 'http://localhost:3000/api/users',    
     columns: [
       { data: 'id' },
       { data: 'name' },
